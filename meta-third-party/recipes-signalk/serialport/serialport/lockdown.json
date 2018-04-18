@@ -1,0 +1,453 @@
+{
+  "ansi-bgblack": {
+    "0.1.1": "*"
+  },
+  "ansi-bgblue": {
+    "0.1.1": "*"
+  },
+  "ansi-bgcyan": {
+    "0.1.1": "*"
+  },
+  "ansi-bggreen": {
+    "0.1.1": "*"
+  },
+  "ansi-bgmagenta": {
+    "0.1.1": "*"
+  },
+  "ansi-bgred": {
+    "0.1.1": "*"
+  },
+  "ansi-bgwhite": {
+    "0.1.1": "*"
+  },
+  "ansi-bgyellow": {
+    "0.1.1": "*"
+  },
+  "ansi-black": {
+    "0.1.1": "*"
+  },
+  "ansi-blue": {
+    "0.1.1": "*"
+  },
+  "ansi-bold": {
+    "0.1.1": "*"
+  },
+  "ansi-colors": {
+    "0.2.0": "*"
+  },
+  "ansi-cyan": {
+    "0.1.1": "*"
+  },
+  "ansi-dim": {
+    "0.1.1": "*"
+  },
+  "ansi-gray": {
+    "0.1.1": "*"
+  },
+  "ansi-green": {
+    "0.1.1": "*"
+  },
+  "ansi-grey": {
+    "0.1.1": "*"
+  },
+  "ansi-hidden": {
+    "0.1.1": "*"
+  },
+  "ansi-inverse": {
+    "0.1.1": "*"
+  },
+  "ansi-italic": {
+    "0.1.1": "*"
+  },
+  "ansi-magenta": {
+    "0.1.1": "*"
+  },
+  "ansi-red": {
+    "0.1.1": "*"
+  },
+  "ansi-regex": {
+    "2.1.1": "c3b33ab5ee360d86e0e628f0468ae7ef27d654df",
+    "3.0.0": "ed0317c322064f79466c02966bddb605ab37d998"
+  },
+  "ansi-reset": {
+    "0.1.1": "*"
+  },
+  "ansi-strikethrough": {
+    "0.1.1": "*"
+  },
+  "ansi-underline": {
+    "0.1.1": "*"
+  },
+  "ansi-white": {
+    "0.1.1": "*"
+  },
+  "ansi-wrap": {
+    "0.1.0": "*"
+  },
+  "ansi-yellow": {
+    "0.1.1": "*"
+  },
+  "aproba": {
+    "1.2.0": "6802e6264efd18c790a1b0d517f0f2627bf2c94a"
+  },
+  "are-we-there-yet": {
+    "1.1.4": "bb5dca382bb94f05e15194373d16fd3ba1ca110d"
+  },
+  "arr-flatten": {
+    "1.1.0": "36048bbff4e7b47e136644316c99669ea5ae91f1"
+  },
+  "arr-swap": {
+    "1.0.1": "*"
+  },
+  "assign-symbols": {
+    "1.0.0": "*"
+  },
+  "bindings": {
+    "1.3.0": "b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7"
+  },
+  "bl": {
+    "1.2.2": "*"
+  },
+  "choices-separator": {
+    "2.0.0": "*"
+  },
+  "chownr": {
+    "1.0.1": "e2a75042a9551908bebd25b8523d5f9769d79181"
+  },
+  "clone-deep": {
+    "1.0.0": "b2f354444b5d4a0ce58faca337ef34da2b14a6c7"
+  },
+  "code-point-at": {
+    "1.1.0": "0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+  },
+  "collection-visit": {
+    "1.0.0": "*"
+  },
+  "commander": {
+    "2.15.1": "*"
+  },
+  "component-emitter": {
+    "1.2.1": "137918d6d78283f7df7a6b7c5a63e140e69425e6"
+  },
+  "console-control-strings": {
+    "1.1.0": "3d7cf4464db6446ea644bf4b39507f9851008e8e"
+  },
+  "copy-descriptor": {
+    "0.1.1": "*"
+  },
+  "core-util-is": {
+    "1.0.2": "b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+  },
+  "debug": {
+    "2.6.9": "5d128515df134ff327e90a4c93f4e077a536341f",
+    "3.1.0": "5bb5a0672628b64149566ba16819e61518c67261"
+  },
+  "decompress-response": {
+    "3.3.0": "*"
+  },
+  "deep-extend": {
+    "0.4.2": "48b699c27e334bf89f10892be432f6e4c7d34a7f"
+  },
+  "define-property": {
+    "0.2.5": "*",
+    "1.0.0": "*"
+  },
+  "delegates": {
+    "1.0.0": "84c6e159b81904fdca59a0ef44cd870d31250f9a"
+  },
+  "detect-libc": {
+    "1.0.3": "*"
+  },
+  "end-of-stream": {
+    "1.4.1": "*"
+  },
+  "error-symbol": {
+    "0.1.0": "*"
+  },
+  "expand-template": {
+    "1.1.0": "e09efba977bf98f9ee0ed25abd0c692e02aec3fc"
+  },
+  "extend-shallow": {
+    "2.0.1": "*",
+    "3.0.2": "*"
+  },
+  "for-in": {
+    "0.1.8": "d8773908e31256109952b1fdb9b3fa867d2775e1",
+    "1.0.2": "81068d295a8142ec0ac726c6e2200c30fb6d5e80"
+  },
+  "for-own": {
+    "1.0.0": "c63332f415cedc4b04dbfe70cf836494c53cb44b"
+  },
+  "gauge": {
+    "2.7.4": "2c03405c7538c39d7eb37b317022e325fb018bf7"
+  },
+  "github-from-package": {
+    "0.0.0": "97fb5d96bfde8973313f20e8288ef9a167fa64ce"
+  },
+  "has-unicode": {
+    "2.0.1": "e0e6fe6a28cf51138855e086d1691e771de2a8b9"
+  },
+  "info-symbol": {
+    "0.1.0": "*"
+  },
+  "inherits": {
+    "2.0.3": "633c2c83e3da42a502f52466022480f4208261de"
+  },
+  "ini": {
+    "1.3.5": "eee25f56db1c9ec6085e0c22778083f596abf927"
+  },
+  "is-accessor-descriptor": {
+    "0.1.6": "*",
+    "1.0.0": "*"
+  },
+  "is-buffer": {
+    "1.1.6": "efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+  },
+  "is-data-descriptor": {
+    "0.1.4": "*",
+    "1.0.0": "*"
+  },
+  "is-descriptor": {
+    "0.1.6": "*",
+    "1.0.2": "*"
+  },
+  "is-extendable": {
+    "0.1.1": "62b110e289a471418e3ec36a617d472e301dfc89",
+    "1.0.1": "a7470f9e426733d81bd81e1155264e3a3507cab4"
+  },
+  "is-fullwidth-code-point": {
+    "1.0.0": "ef9e31386f031a7f0d643af82fde50c457ef00cb",
+    "2.0.0": "a3b30a5c4f199183167aaab93beefae3ddfb654f"
+  },
+  "is-number": {
+    "3.0.0": "24fd6201a4782cf50561c810276afc7d12d71195"
+  },
+  "is-plain-object": {
+    "2.0.4": "2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  },
+  "is-windows": {
+    "1.0.2": "*"
+  },
+  "isarray": {
+    "1.0.0": "bb935d48582cba168c06834957a54a3e07124f11"
+  },
+  "isobject": {
+    "3.0.1": "4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  },
+  "kind-of": {
+    "3.2.2": "31ea21a734bab9bbb0f32466d893aea51e4a3c64",
+    "5.1.0": "729c91e2d857b7a419a1f9aa65685c4c33f5845d",
+    "6.0.2": "01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
+  },
+  "koalas": {
+    "1.0.2": "*"
+  },
+  "lazy-cache": {
+    "2.0.2": "b9190a4f913354694840859f8a8f7084d8822264"
+  },
+  "log-ok": {
+    "0.1.1": "*"
+  },
+  "log-utils": {
+    "0.2.1": "*"
+  },
+  "map-visit": {
+    "1.0.0": "*"
+  },
+  "mimic-response": {
+    "1.0.0": "*"
+  },
+  "minimist": {
+    "0.0.8": "857fcabfc3397d2625b8228262e86aa7a011b05d",
+    "1.2.0": "a35008b20f41383eec1fb914f4cd5df79a264284"
+  },
+  "mixin-object": {
+    "2.0.1": "4fb949441dab182540f1fe035ba60e1947a5e57e"
+  },
+  "mkdirp": {
+    "0.5.1": "30057438eac6cf7f8c4767f38648d6697d75c903"
+  },
+  "ms": {
+    "2.0.0": "5608aeadfc00be6c2901df5f9861788de0d597c8"
+  },
+  "mute-stream": {
+    "0.0.7": "3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
+  },
+  "nan": {
+    "2.10.0": "*"
+  },
+  "node-abi": {
+    "2.3.0": "*"
+  },
+  "noop-logger": {
+    "0.1.1": "94a2b1633c4f1317553007d8966fd0e841b6a4c2"
+  },
+  "npmlog": {
+    "4.1.2": "08a7f2a8bf734604779a9efa4ad5cc717abb954b"
+  },
+  "number-is-nan": {
+    "1.0.1": "097b602b53422a522c1afb8790318336941a011d"
+  },
+  "object-assign": {
+    "4.1.1": "2109adc7965887cfc05cbbd442cac8bfbb360863"
+  },
+  "object-copy": {
+    "0.1.0": "*"
+  },
+  "object-visit": {
+    "1.0.1": "*"
+  },
+  "once": {
+    "1.4.0": "583b1aa775961d4b113ac17d9c50baef9dd76bd1"
+  },
+  "os-homedir": {
+    "1.0.2": "ffbc4988336e0e833de0c168c7ef152121aa7fb3"
+  },
+  "pointer-symbol": {
+    "1.0.0": "*"
+  },
+  "prebuild-install": {
+    "2.5.3": "*"
+  },
+  "process-nextick-args": {
+    "2.0.0": "a37d732f4271b4ab1ad070d35508e8290788ffaa"
+  },
+  "promirepl": {
+    "1.0.1": "2951aaeba2bf3fe2274ff63a16d94c04ca60872e"
+  },
+  "prompt-actions": {
+    "3.0.2": "*"
+  },
+  "prompt-base": {
+    "4.1.0": "*"
+  },
+  "prompt-checkbox": {
+    "2.2.0": "*"
+  },
+  "prompt-choices": {
+    "4.0.6": "*"
+  },
+  "prompt-list": {
+    "3.1.2": "*"
+  },
+  "prompt-question": {
+    "5.0.2": "*"
+  },
+  "prompt-radio": {
+    "1.2.1": "*"
+  },
+  "pump": {
+    "1.0.3": "5dfe8311c33bbf6fc18261f9f34702c47c08a954",
+    "2.0.1": "*"
+  },
+  "radio-symbol": {
+    "2.0.0": "*"
+  },
+  "rc": {
+    "1.2.6": "*"
+  },
+  "readable-stream": {
+    "2.3.6": "*"
+  },
+  "readline-ui": {
+    "2.2.3": "*"
+  },
+  "readline-utils": {
+    "2.2.3": "*"
+  },
+  "safe-buffer": {
+    "5.1.1": "893312af69b2123def71f57889001671eeb2c853"
+  },
+  "semver": {
+    "5.5.0": "dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
+  },
+  "set-blocking": {
+    "2.0.0": "045f9782d011ae9a6803ddd382b24392b3d890f7"
+  },
+  "set-getter": {
+    "0.1.0": "*"
+  },
+  "set-value": {
+    "2.0.0": "*"
+  },
+  "shallow-clone": {
+    "1.0.0": "4480cd06e882ef68b2ad88a3ea54832e2c48b571"
+  },
+  "signal-exit": {
+    "3.0.2": "b5fdc08f1287ea1178628e415e25132b73646c6d"
+  },
+  "simple-concat": {
+    "1.0.0": "*"
+  },
+  "simple-get": {
+    "2.7.0": "ad37f926d08129237ff08c4f2edfd6f10e0380b5"
+  },
+  "split-string": {
+    "3.1.0": "*"
+  },
+  "static-extend": {
+    "0.1.2": "*"
+  },
+  "string-width": {
+    "1.0.2": "118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3",
+    "2.1.1": "ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+  },
+  "string_decoder": {
+    "1.1.1": "*"
+  },
+  "strip-ansi": {
+    "3.0.1": "6a385fb8853d952d5ff05d0e8aaf94278dc63dcf",
+    "4.0.0": "a8479022eb1ac368a871389b635262c505ee368f"
+  },
+  "strip-color": {
+    "0.1.0": "*"
+  },
+  "strip-json-comments": {
+    "2.0.1": "3c531942e908c2697c0ec344858c286c7ca0a60a"
+  },
+  "success-symbol": {
+    "0.1.0": "*"
+  },
+  "tar-fs": {
+    "1.16.0": "e877a25acbcc51d8c790da1c57c9cf439817b896"
+  },
+  "tar-stream": {
+    "1.5.5": "5cad84779f45c83b1f2508d96b09d88c7218af55"
+  },
+  "terminal-paginator": {
+    "2.0.2": "*"
+  },
+  "time-stamp": {
+    "1.1.0": "764a5a11af50561921b133f3b44e618687e0f5c3"
+  },
+  "to-object-path": {
+    "0.3.0": "*"
+  },
+  "toggle-array": {
+    "1.0.1": "*"
+  },
+  "tunnel-agent": {
+    "0.6.0": "27a5dea06b36b04a0a9966774b290868f0fc40fd"
+  },
+  "util-deprecate": {
+    "1.0.2": "450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+  },
+  "warning-symbol": {
+    "0.1.0": "*"
+  },
+  "which-pm-runs": {
+    "1.0.0": "*"
+  },
+  "wide-align": {
+    "1.1.2": "571e0f1b0604636ebc0dfc21b0339bbe31341710"
+  },
+  "window-size": {
+    "1.1.0": "3b402d3244f35561db2c9761ad9d1e5286b07a2d"
+  },
+  "wrappy": {
+    "1.0.2": "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+  },
+  "xtend": {
+    "4.0.1": "a5c6d532be656e23db820efb943a1f04998d63af"
+  }
+}
