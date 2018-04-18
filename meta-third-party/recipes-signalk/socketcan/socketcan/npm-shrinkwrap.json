@@ -1,0 +1,26 @@
+{
+  "name": "socketcan",
+  "version": "2.2.2",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "nan": {
+      "version": "2.10.0"
+    },
+    "xml2js": {
+      "version": "0.4.19",
+      "requires": {
+        "sax": "1.2.4",
+        "xmlbuilder": "9.0.7"
+      },
+      "dependencies": {
+        "sax": {
+          "version": "1.2.4"
+        },
+        "xmlbuilder": {
+          "version": "9.0.7"
+        }
+      }
+    }
+  }
+}
