@@ -13,7 +13,4 @@ inherit core-image
 IMAGE_NAME = "${IMAGE_BASENAME}-${MACHINE}-${DATETIME}-${DISTRO_VERSION}"
 IMAGE_NAME[vardepsexclude] += "DATETIME"
 
-# Note: The Venus GX was shipped with this partion size initially.
-IMAGE_ROOTFS_PARTITION_SIZE_beaglebone = "327680"
-
 IMAGE_ROOTFS_SIZE_raspberrypi2 = "512000"
