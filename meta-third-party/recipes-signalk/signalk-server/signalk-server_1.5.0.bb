@@ -47,6 +47,9 @@ do_compile() {
 	# TODO: this could perhaps be done better, as now we specify a version here,
 	#       inside the recipe. Which is not common practice in OE.
 	npm install signalk-venus-plugin@1.6.0
+
+	npm install @signalk/signalk-node-red@2.7.4
+
 	# remove the files in put/test: they are not necessary & compiled.
 	rm -rf ./node_modules/put/test
 
