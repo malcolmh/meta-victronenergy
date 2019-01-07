@@ -39,7 +39,6 @@ inherit daemontools
 DAEMON_PN = "${PN}"
 DAEMONTOOLS_SERVICE_DIR = "/etc/node-red/service"
 DAEMONTOOLS_SCRIPT = "HOME=/home/root exec ${bindir}/node-red"
-DAEMONTOOLS_DOWN = "1"
 DAEMONTOOLS_LOG_DIR = "${DAEMONTOOLS_LOG_DIR_PREFIX}/node-red"
 
 do_compile() {
