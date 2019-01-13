@@ -1,11 +1,19 @@
-# Description: fetch & package signalk-server, without using OE npm-fetcher
+# Description: fetch & package signalk-server
+
+# This recipe was handmade; rather then using the devtool and OE npm.class
+# functionality; since they take forever with a project with many
+# dependencies like this one.
 #
-# This recipe doesn't use the OE npm-fetcher since its buggy, not maintained,
-# and also eternally slow in handling dependencies; of which signalk has many.
+# The cli to install nodejs projects, npm, supports cross-compiling.
+# Implementation as below is quite similar to do_compile() from npm.class
+# https://github.com/openembedded/openembedded-core/blob/master/meta/classes/npm.bbclass
 #
-# Instead, only the packages that require compilation are done using that
-# fetcher (see the other recipes), and the rest, all just .js and other
-# files that do not need compilation, are retrieved using npm and then packaged.
+# The best `documentation` that I could find is this one:
+# https://github.com/nodejs/node-gyp/issues/829
+#
+# From OE its this one:
+# https://wiki.yoctoproject.org/wiki/TipsAndTricks/NPM 
+
 
 LICENSE = "MIT"
 
@@ -24,12 +32,16 @@ DEPENDS = " \
 RDEPENDS_${PN} += " \
 	nodejs \
 	nodejs-npm \
-	serialport \
-	socketcan \
 "
 
 DAEMONTOOLS_SERVICE_DIR = "${sysconfdir}/${PN}/service"
 DAEMONTOOLS_RUN = "${libdir}/node_modules/signalk-server/bin/start-signalk.sh"
+
+# ${@npm_oe_arch_map(d.getVar('TARGET_ARCH'), d)}"
+
+# TODO: fix this for us harmless hardcoding by using the, or a, map like in
+# npm.class
+NPM_ARCH ?= "arm" 
 
 do_compile() {
 	# Fetch & install signalk-server
@@ -39,29 +51,19 @@ do_compile() {
 	# now doesn't cause the package to fail, which it should. (and then the error
 	# also needs fixing & circumventing. Best would be if we could skip all
 	# compiling? (they are deleted afterwards anyway).
-	npm install -g --prefix ./tmp signalk-server@${PV}
+	npm --arch=${NPM_ARCH} --target_arch=${NPM_ARCH} install -g --prefix ./tmp signalk-server@${PV}
 
         cd ./tmp/lib/node_modules/signalk-server
 
 	# install plugins
 	# TODO: this could perhaps be done better, as now we specify a version here,
 	#       inside the recipe. Which is not common practice in OE.
-	npm install signalk-venus-plugin@1.6.0
+	npm --arch=${NPM_ARCH} --target_arch=${NPM_ARCH} install signalk-venus-plugin@1.6.0
+	npm --arch=${NPM_ARCH} --target_arch=${NPM_ARCH} install @signalk/signalk-node-red@2.7.4
 
-	npm install @signalk/signalk-node-red@2.7.4
-
-	# remove the files in put/test: they are not necessary & compiled.
+	# remove the files in put/test: they are compiled, though not cross-compiled thus
+	# giving QA errors as well as being useless; and also they are not necessary
 	rm -rf ./node_modules/put/test
-
-	cd ../../../../
-
-	# Next, remove the packages that contain compiled code
-	# note that this means they must be installed in another way, ie by using
-	# normal npm-fetcher from OE.
-	rm -rf ./tmp/lib/node_modules/signalk-server/node_modules/bcrypt
-	rm -rf ./tmp/lib/node_modules/signalk-server/node_modules/mdns
-	rm -rf ./tmp/lib/node_modules/signalk-server/node_modules/serialport
-	rm -rf ./tmp/lib/node_modules/signalk-server/node_modules/socketcan
 }
 
 do_install() {
@@ -83,6 +85,3 @@ do_install() {
 }
 
 FILES_${PN} += "${libdir}/node_modules/signalk-server"
-
-
-
