@@ -17,5 +17,7 @@ if [ ! -f "$PLUGINCONF/venus.json" ]; then
 	cp "$DEFAULTCONF/venus.json" "$PLUGINCONF"
 fi
 
+export PRESERIALCOMMAND="/opt/victronenergy/serial-starter/stop-tty.sh"
+# export DEBUG=*
 exec /usr/lib/node_modules/signalk-server/bin/signalk-server -c /data/conf/signalk
 
