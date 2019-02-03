@@ -48,11 +48,6 @@ NPM_ARCH ?= "arm"
 do_compile() {
 	# Fetch & install signalk-server
 
-	# TODO: the log shows various errors. They are in the packages that require
-	# compiling, so don't hurt since they are deleted anyway. However, the error
-	# now doesn't cause the package to fail, which it should. (and then the error
-	# also needs fixing & circumventing. Best would be if we could skip all
-	# compiling? (they are deleted afterwards anyway).
 	npm --arch=${NPM_ARCH} --target_arch=${NPM_ARCH} install -g --prefix ./tmp signalk-server@${PV}
 
         cd ./tmp/lib/node_modules/signalk-server
